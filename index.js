@@ -26,6 +26,8 @@ export default {
   props: {
     template: String
   },
+  methods:{},
+  computed: {},
   render(h) {
     if (this.template) {
       const { $data = {}, $props = {}, $options = {} } = this.$parent;
